@@ -1,16 +1,90 @@
-# app_project
+# TIL
 
-A new Flutter project.
+2025년 3월 18일
 
-## Getting Started
+## 오늘할것
 
-This project is a starting point for a Flutter application.
+구구단 출력
 
-A few resources to get you started if this is your first Flutter project:
+사각형 /,\,X출력
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+년,월,일을 입력하여 요일 알기
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 실습 1. 구구단
+
+void main() {
+for (int i = 2; i < 10; i++) {
+for (int j = 1; j < 10; j++) {
+print('$i X $j =  ${j * i}');
+}
+print('');
+}
+}
+
+### 실습 2.  사각형
+
+void main() {
+int n = 10; // 정사각형 크기
+
+for (int i = 0; i < n; i++) {
+print('
+
+*'*
+
+n);
+}
+print("");
+for (int i = 0; i < n; i++) {
+if (i == 0  i == n - 1) {
+print('
+
+*'*
+
+n);
+} else {
+print('
+
+*' + ' '*
+
+(n - 2) + '
+
+*');
+}
+}
+print("");
+for (int i = 0; i < n; i++) {
+print(' '*
+
+i + '/');
+}
+print("");
+for (int i = 0; i < n; i++) {
+print(' ' * (n - i - 1) + '\');
+}
+print("");
+for (int i = 0; i < n; i++) {
+String line = "";
+for (int j = 0; j < n; j++) {
+if (i == j  j == n - i - 1) {
+line += '*';
+} else {
+line += ' ';
+}
+}
+print(line);
+}
+}
+
+### 실습 3. 요일
+
+void main() {
+int year = 2025;
+int month = 3;
+int day = 10;
+
+List weekdays = ["월", "화", "수", "목", "금", "토", "일"];
+
+DateTime date = DateTime(year, month, day);
+
+print("${weekdays[date.weekday - 1]}요일");
+}
