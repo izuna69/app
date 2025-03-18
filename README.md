@@ -1,6 +1,6 @@
 # TIL
 
-2025년 3월 18일
+flutter를 이용한 안드로이드 스튜디오와 개발일지 입니다.
 
 ## 1주차 과제
 
@@ -9,4 +9,4 @@
 ## 2주차 과제
 
 
-[구구단,사각형,요일코드](https://github.com/izuna69/app/blob/test2/2021136057_b/2%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C.md)
+[구구단,사각형,요일코드 짜보기](https://github.com/izuna69/app/blob/test2/2021136057_b/2%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C.md)
