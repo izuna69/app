@@ -11,6 +11,8 @@ flutter를 이용한 안드로이드 스튜디오와 개발일지 입니다.
 
 [구구단,사각형,요일코드 짜보기](https://github.com/izuna69/app/blob/test2/2021136057_b/2%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C.md) 
 
+## 3주차 과제
+
 [다트언어 공부하기](https://github.com/izuna69/app/blob/test2/2021136057_b/dart%EC%96%B8%EC%96%B4%201bd30e98279f80fb84b9c52a2e9f6ab5.md)
 
 
