@@ -20,5 +20,11 @@ flutter를 이용한 안드로이드 스튜디오와 개발일지 입니다.
 
 [시간구하기](https://github.com/izuna69/app/blob/test2/2021136057_b/%EC%8B%9C%EA%B0%84%20%EA%B5%AC%ED%95%98%EA%B8%B0%201c74f7ca3dd98041a492dcd2f0a9767a.md)
 
+## 5주차 과제
+
+[5주차 실습내용](https://github.com/izuna69/app/blob/test2/2021136057_b/5%EC%A3%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5%201ce4f7ca3dd9801cab77d57df90876a5.md)
+
+[5주차 과제]
+
 
 
